@@ -1,0 +1,202 @@
+{
+  "events": [
+    {
+      "title": "Montreal Techno Festival",
+      "subtitle": "An exceptional techno festival featuring Fisher. Tickets from $45.",
+      "imageUrl": "/img/event-1.jpg",
+      "startsAt": "2025-10-11T19:00:00-04:00",
+      "endsAt": "2025-10-11T23:30:00-04:00",
+      "hour": "19:00",
+      "place": {
+        "name": "Bell Centre",
+        "city": "Montreal",
+        "country": "CA"
+      },
+      "organizer": "MTL Techno",
+      "price": 45,
+      "currency": "CAD",
+      "capacity": 7000,
+      "available": 7000
+    },
+    {
+      "title": "PSG vs Real Madrid",
+      "subtitle": "UEFA Champions League Final",
+      "imageUrl": "/img/event-2.jpg",
+      "startsAt": "2025-10-18T21:00:00+02:00",
+      "endsAt": "2025-10-18T23:30:00+02:00",
+      "hour": "21:00",
+      "place": {
+        "name": "Parc des Princes",
+        "city": "Paris",
+        "country": "FR"
+      },
+      "organizer": "UEFA",
+      "price": 250,
+      "currency": "CAD",
+      "capacity": 19000,
+      "available": 19000
+    },
+    {
+      "title": "Toronto Raptors vs Washington Wizards",
+      "subtitle": "NBA Game at Scotiabank Arena. Basketball action with top NBA stars.",
+      "imageUrl": "/img/event-8.jpg",
+      "startsAt": "2025-11-12T19:30:00-05:00",
+      "endsAt": "2025-11-12T22:30:00-05:00",
+      "hour": "19:30",
+      "place": {
+        "name": "Scotiabank Arena",
+        "city": "Toronto",
+        "country": "CA"
+      },
+      "organizer": "NBA",
+      "price": 120,
+      "currency": "CAD",
+      "capacity": 19800,
+      "available": 19800
+    },
+    {
+      "title": "Summer Music Festival",
+      "subtitle": "A massive outdoor concert with world-famous DJs and live performances.",
+      "imageUrl": "/img/event-9.jpg",
+      "startsAt": "2025-07-20T17:00:00-04:00",
+      "endsAt": "2025-07-20T23:59:00-04:00",
+      "hour": "17:00",
+      "place": {
+        "name": "Parc Jean-Drapeau",
+        "city": "Montreal",
+        "country": "CA"
+      },
+      "organizer": "Music Live Events",
+      "price": 95,
+      "currency": "CAD",
+      "capacity": 35000,
+      "available": 35000
+    },
+    {
+      "title": "Classic Car Expo",
+      "subtitle": "Exhibition of classic cars with enthusiasts and collectors.",
+      "imageUrl": "/img/event-10.jpg",
+      "startsAt": "2025-08-15T10:00:00-04:00",
+      "endsAt": "2025-08-15T18:00:00-04:00",
+      "hour": "10:00",
+      "place": {
+        "name": "Exhibition Park",
+        "city": "Ottawa",
+        "country": "CA"
+      },
+      "organizer": "Classic Auto Club",
+      "price": 25,
+      "currency": "CAD",
+      "capacity": 5000,
+      "available": 5000
+    },
+    {
+      "title": "Esports Championship",
+      "subtitle": "Live esports competition featuring top professional gamers.",
+      "imageUrl": "/img/event-11.jpg",
+      "startsAt": "2025-09-05T14:00:00-04:00",
+      "endsAt": "2025-09-05T20:00:00-04:00",
+      "hour": "14:00",
+      "place": {
+        "name": "Palais des congr\u00e8s",
+        "city": "Montreal",
+        "country": "CA"
+      },
+      "organizer": "Gaming World League",
+      "price": 60,
+      "currency": "CAD",
+      "capacity": 8000,
+      "available": 8000
+    },
+    {
+      "title": "Tech Innovations Conference",
+      "subtitle": "Keynote speeches and networking with leaders in technology.",
+      "imageUrl": "/img/event-3.jpg",
+      "startsAt": "2025-10-25T10:00:00-04:00",
+      "endsAt": "2025-10-25T17:00:00-04:00",
+      "hour": "10:00",
+      "place": {
+        "name": "Centre des congr\u00e8s",
+        "city": "Montreal",
+        "country": "CA"
+      },
+      "organizer": "TechWorld",
+      "price": 75,
+      "currency": "CAD",
+      "capacity": 300,
+      "available": 300
+    },
+    {
+      "title": "FC Bayern Munich vs Borussia Dortmund",
+      "subtitle": "Bundesliga clash at the Allianz Arena.",
+      "imageUrl": "/img/event-4.jpg",
+      "startsAt": "2025-11-22T18:00:00+01:00",
+      "endsAt": "2025-11-22T20:30:00+01:00",
+      "hour": "18:00",
+      "place": {
+        "name": "Allianz Arena",
+        "city": "Munich",
+        "country": "DE"
+      },
+      "organizer": "Bundesliga",
+      "price": 180,
+      "currency": "CAD",
+      "capacity": 75000,
+      "available": 75000
+    },
+    {
+      "title": "Worship Concert",
+      "subtitle": "An uplifting evening of music and worship.",
+      "imageUrl": "/img/event-5.jpg",
+      "startsAt": "2025-09-15T19:00:00-04:00",
+      "endsAt": "2025-09-15T22:00:00-04:00",
+      "hour": "19:00",
+      "place": {
+        "name": "Metropolitan Church",
+        "city": "Quebec City",
+        "country": "CA"
+      },
+      "organizer": "Faith Music",
+      "price": 35,
+      "currency": "CAD",
+      "capacity": 2000,
+      "available": 2000
+    },
+    {
+      "title": "Rock Festival Night",
+      "subtitle": "Hard rock and metal performances with top bands.",
+      "imageUrl": "/img/event-6.jpg",
+      "startsAt": "2025-09-25T20:00:00-04:00",
+      "endsAt": "2025-09-26T02:00:00-04:00",
+      "hour": "20:00",
+      "place": {
+        "name": "Bell Centre",
+        "city": "Montreal",
+        "country": "CA"
+      },
+      "organizer": "RockNation",
+      "price": 65,
+      "currency": "CAD",
+      "capacity": 12000,
+      "available": 12000
+    },
+    {
+      "title": "World Economic Forum Session",
+      "subtitle": "High-level discussions on science, economy and innovation.",
+      "imageUrl": "/img/event-7.jpg",
+      "startsAt": "2025-01-20T09:00:00+01:00",
+      "endsAt": "2025-01-20T17:00:00+01:00",
+      "hour": "09:00",
+      "place": {
+        "name": "Davos Congress Centre",
+        "city": "Davos",
+        "country": "CH"
+      },
+      "organizer": "World Economic Forum",
+      "price": 0,
+      "currency": "CAD",
+      "capacity": 2000,
+      "available": 2000
+    }
+  ]
+}

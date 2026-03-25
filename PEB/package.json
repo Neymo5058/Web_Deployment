@@ -1,0 +1,45 @@
+{
+  "name": "peb",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server/server.js",
+    "server": "concurrently \"npm:server:backend\" \"npm:server:frontend\"",
+    "server:backend": "node server/server.js",
+    "server:frontend": "npm run dev",
+    "test": "vitest run",
+    "seed": "node server/seed.js",
+    "seed:local": "node server/seed-local.js"
+  },
+  "dependencies": {
+    "@stripe/stripe-js": "^8.0.0",
+    "axios": "^1.12.2",
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "ionicons": "^8.0.13",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.19.0",
+    "mongoose": "^8.18.1",
+    "pinia": "^3.0.3",
+    "serverless-http": "^4.0.0",
+    "stripe": "^19.0.0",
+    "vue": "^3.5.21",
+    "vue-i18n": "^11.1.12",
+    "vue-router": "^4.5.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/test-utils": "^2.4.6",
+    "jsdom": "^27.0.0",
+    "concurrently": "^9.1.0",
+    "vite": "^7.1.2",
+    "vitest": "^3.2.4"
+  }
+}

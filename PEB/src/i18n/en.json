@@ -1,0 +1,371 @@
+{
+  "common": {
+    "lang_en": "EN",
+    "lang_fr": "FR",
+    "globe_label": "Change language",
+    "loading": "Loading...",
+    "loadingAria": "Loading"
+  },
+  "navbar": {
+    "signin": "Sign in",
+    "signup": "Create account",
+    "logout": "Log out",
+    "welcome": "Hello {name}",
+    "adminDashboard": "Admin dashboard",
+    "organizerDashboard": "Organizer dashboard",
+    "profile": "Profile",
+    "openMenu": "Open navigation",
+    "closeMenu": "Close navigation"
+  },
+  "home": {
+    "home": "Home",
+    "title": "Book events easily",
+    "subtitle": "Discover the best concerts, conferences and sports events... book your tickets in just a few clicks",
+    "feature_search": "Easy search",
+    "feature_booking": "Simple reservations",
+    "feature_payment": "Secure payment",
+    "feature_search_desc": "Find events easily.",
+    "feature_booking_desc": "Book your tickets in just a few clicks.",
+    "feature_payment_desc": "Enjoy a secure and protected online checkout.",
+    "cta_events": "View events"
+  },
+  "login": {
+    "signin_title": "Sign in",
+    "email_label": "Email address",
+    "email_placeholder": "Enter your email",
+    "password_label": "Password",
+    "password_placeholder": "Enter your password",
+    "cta_signin": "Sign in",
+    "no_account": "No account?",
+    "link_signup": "Create an account"
+  },
+  "signup": {
+    "title": "Sign up",
+    "full_name_label": "Full name",
+    "full_name_placeholder": "Enter your full name",
+    "email_label": "Email address",
+    "email_placeholder": "Enter your email",
+    "password_label": "Password",
+    "password_placeholder": "Enter your password",
+    "confirm_password_label": "Confirm password",
+    "confirm_password_placeholder": "Re-enter your password",
+    "toggle_show_pwd": "Show password",
+    "toggle_hide_pwd": "Hide password",
+    "account_type_label": "Account type",
+    "account_type_placeholder": "Select an account type",
+    "account_type_user": "User",
+    "account_type_organizer": "Organizer",
+    "cta_signup": "Create account",
+    "have_account": "Already have an account?",
+    "link_signin": "Sign in",
+    "error_password_mismatch": "Passwords do not match"
+  },
+  "checkout": {
+    "common": {
+      "back": "\u2190 Back to previous step",
+      "loading": "Loading…",
+      "loadingEvent": "Loading event…",
+      "loadingStripe": "Initialising Stripe…"
+    },
+    "summary": {
+      "title": "Booking details",
+      "pricePerTicket": "Price per ticket",
+      "quantity": "Quantity",
+      "taxes": "Taxes",
+      "fees": "Service fees",
+      "total": "Total"
+    },
+    "ticket": {
+      "title": "Ticket selection",
+      "quantityLabel": "Quantity",
+      "soldOut": "Event sold out",
+      "cta": "Continue"
+    },
+    "customer": {
+      "title": "Customer information",
+      "fullnameLabel": "Full name",
+      "fullnamePlaceholder": "Enter your full name",
+      "emailLabel": "Email address",
+      "emailPlaceholder": "you@example.com",
+      "phoneLabel": "Phone",
+      "phonePlaceholder": "(555) 123-4567",
+      "actions": {
+        "previous": "Back to tickets",
+        "next": "Continue to payment"
+      }
+    },
+    "payment": {
+      "secureTitle": "Secure payment",
+      "contact": {
+        "legend": "Contact details",
+        "fullnameLabel": "Full name",
+        "fullnamePlaceholder": "Your full name",
+        "emailLabel": "Email address",
+        "emailPlaceholder": "you@example.com"
+      },
+      "method": {
+        "legend": "Payment method"
+      },
+      "actions": {
+        "previous": "Previous",
+        "confirm": "Confirm and pay",
+        "processing": "Processing…"
+      },
+      "status": {
+        "verification": "Your payment is being reviewed. You will receive an email once it is confirmed."
+      }
+    },
+    "validation": {
+      "fullnameRequired": "Full name is required.",
+      "emailRequired": "Email address is required.",
+      "emailInvalid": "Please enter a valid email address."
+    },
+    "errors": {
+      "eventNotFound": "Event not found.",
+      "eventLoad": "We couldn't load the event.",
+      "missingEventId": "The event identifier is missing.",
+      "intentInit": "We couldn't initiate the payment.",
+      "missingPublishableKey": "Stripe publishable key is missing.",
+      "missingClientSecret": "Unable to retrieve the Stripe client secret.",
+      "stripeInit": "Stripe could not be initialised.",
+      "paymentUnavailable": "The payment cannot be processed at the moment.",
+      "paymentDeclined": "The payment was declined. Please check your information.",
+      "paymentUnexpected": "An unexpected error occurred during payment.",
+      "confirmation": "We couldn't confirm the payment."
+    },
+    "quantity": {
+      "decrease": "Decrease quantity",
+      "increase": "Increase quantity"
+    }
+  },
+  "roles": {
+    "user": "User",
+    "organizer": "Organizer",
+    "admin": "Administrator"
+  },
+  "event": {
+    "popularSectionTitle": "Events",
+    "loading": "Loading events…",
+    "errorGeneric": "Unable to load events.",
+    "errorWithMessage": "Unable to load events: {message}",
+    "none": "No events are available at the moment.",
+    "imageAlt": "Event illustration: {title}",
+    "imageAltFallback": "Event illustration",
+    "soldOut": "Sold Out",
+    "availableSimple": {
+      "one": "{count} seat available",
+      "other": "{count} seats available"
+    },
+    "availableOfCapacity": {
+      "one": "{available}/{capacity} seat remaining",
+      "other": "{available}/{capacity} seats remaining"
+    },
+    "priceFrom": "From {price}",
+    "searchPlaceholder": "Search events…",
+    "searchAriaLabel": "Search events",
+    "sortLabel": "Sort by:",
+    "viewOrganizerDashboard": "Organizer dashboard",
+    "sortOptions": {
+      "dateAsc": "Date: soonest → latest",
+      "dateDesc": "Date: latest → soonest",
+      "priceAsc": "Price: low → high",
+      "priceDesc": "Price: high → low",
+      "capacityAsc": "Capacity: low → high",
+      "capacityDesc": "Capacity: high → low"
+    }
+  },
+  "eventDetail": {
+    "back": "Back to events",
+    "loading": "Loading event…",
+    "error": "Unable to load the event.",
+    "errorWithMessage": "Unable to load the event: {message}",
+    "notFound": "This event could not be found.",
+    "summaryTitle": "Event details",
+    "date": "Date",
+    "time": "Time",
+    "location": "Location",
+    "organizer": "Organizer",
+    "capacity": "Capacity",
+    "available": "Seats available",
+    "availabilityLabel": {
+      "one": "seat available",
+      "other": "seats available"
+    },
+    "price": "Price",
+    "soldOut": "Sold Out",
+    "unknown": "Not provided",
+    "editEvent": "Edit this event",
+    "reserveNow": "Book now"
+  },
+  "dashboard": {
+    "actions": {
+      "refresh": "Refresh",
+      "backToEvents": "Back to events"
+    },
+    "states": {
+      "loading": "Loading dashboard data…"
+    },
+    "common": {
+      "updatedAt": "Updated {date}"
+    },
+    "metrics": {
+      "totalUsers": "Users",
+      "totalEvents": "Events",
+      "ticketsSold": "Tickets sold",
+      "revenue": "Revenue",
+      "totalCapacity": "Total capacity",
+      "activeOrganizersShort": "{count} active organizers",
+      "upcomingEventsShort": "{count} upcoming",
+      "occupancyRateShort": "{value} occupancy",
+      "potentialRevenueShort": "Potential: {value}",
+      "availableShort": "{count} seats available",
+      "averageTicketPriceShort": "Avg. ticket: {value}"
+    },
+    "admin": {
+      "title": "Administrator dashboard",
+      "subtitle": "Monitor the platform health and manage user access in one place.",
+      "authRequired": "You need to sign in to access the administrator dashboard.",
+      "forbidden": "Only administrators can open this dashboard.",
+      "metricsTitle": "Global metrics",
+      "roleDistributionTitle": "Role distribution",
+      "accessTitle": "Access management",
+      "accessSubtitle": "Review accounts and adjust roles when necessary.",
+      "pendingTitle": "Pending approvals",
+      "pendingSubtitle": "{count} event(s) waiting for approval",
+      "pendingColumns": {
+        "event": "Event",
+        "organizer": "Organizer",
+        "date": "Scheduled for",
+        "submittedAt": "Submitted",
+        "actions": "Actions"
+      },
+      "eventApproveSuccess": "The event has been approved and is now live.",
+      "eventApproveError": "We could not approve this event. Please try again.",
+      "eventApproveAlready": "This event was already approved.",
+      "eventRejectSuccess": "The event has been denied and removed from the platform.",
+      "eventRejectError": "We could not deny this event. Please try again.",
+      "eventRejectAlready": "This event was already processed.",
+      "approval": {
+        "title": "Event approval",
+        "subtitle": "Review pending submissions before publishing them to the catalog.",
+        "searchLabel": "Search pending events",
+        "searchPlaceholder": "Search by title or organizer…",
+        "filterLabel": "Status",
+        "status": {
+          "all": "All",
+          "pending": "Pending",
+          "approved": "Approved",
+          "rejected": "Rejected",
+          "unknown": "Unknown"
+        },
+        "untitled": "Untitled event",
+        "unknownOrganizer": "Unknown organizer",
+        "unknownLocation": "Unknown location",
+        "emptyPending": "No events require approval at the moment.",
+        "emptyGeneric": "No events match the current filters.",
+        "submittedAt": "Submitted {date}",
+        "selectPlaceholder": "Select an event to review its details.",
+        "details": {
+          "organizer": "Organizer",
+          "submitted": "Submitted",
+          "date": "Event date",
+          "time": "Event time",
+          "location": "Location",
+          "capacity": "Capacity",
+          "available": "{available} seats remaining",
+          "price": "Ticket price",
+          "description": "Description"
+        },
+        "actions": {
+          "approve": "Approve",
+          "reject": "Reject",
+          "approving": "Approving…",
+          "rejecting": "Rejecting…"
+        }
+      },
+      "noUsers": "No users found yet.",
+      "userColumns": {
+        "name": "Name",
+        "email": "Email",
+        "role": "Role",
+        "createdAt": "Created",
+        "actions": "Actions"
+      },
+      "roleUpdateSuccess": "Role updated successfully.",
+      "roleUpdateError": "Unable to update the user role."
+    },
+    "organizer": {
+      "title": "Organizer dashboard",
+      "subtitleWithEmail": "{name} · {email}",
+      "subtitleFallback": "Manage your events and track performance.",
+      "authRequired": "You need to sign in to access the organizer dashboard.",
+      "forbidden": "Only organizers can open this dashboard.",
+      "createTitle": "Create a new event",
+      "createSubtitle": "Fill in the details below to publish a new experience for your attendees.",
+      "createSuccess": "Event “{title}” has been submitted and is awaiting admin approval.",
+      "createError": "Unable to create the event.",
+      "notifications": {
+        "eventRejected": "Your event “{title}” was rejected by the admin and removed from the platform.",
+        "dismissError": "We couldn't dismiss this notification. Please try again.",
+        "generic": "You have a new notification."
+      },
+      "manageTitle": "Manage existing events",
+      "manageSubtitle": "Select an event to update its details and publish changes.",
+      "noEvents": "You have not created any events yet.",
+      "editAction": "Edit",
+      "editingTitle": "Editing “{title}”",
+      "cancelEdit": "Cancel editing",
+      "untitledEvent": "Untitled event",
+      "updateSuccess": "Event “{title}” has been updated successfully.",
+      "updateError": "Unable to update the event.",
+      "form": {
+        "titleLabel": "Event title",
+        "subtitleLabel": "Description",
+        "descriptionLabel": "Description",
+        "imageUrlLabel": "Image URL",
+        "imageUploadLabel": "Take or upload an image",
+        "imageUploadHint": "You can snap a new photo or choose one that is already on your device.",
+        "imageUploadSelected": "Selected file: {file}",
+        "imageUploadClear": "Remove image",
+        "startsAtLabel": "Date",
+        "hourLabel": "Time",
+        "placeNameLabel": "Venue name",
+        "placeCityLabel": "City",
+        "placeCountryLabel": "Country (optional)",
+        "organizerLabel": "Organizer",
+        "priceLabel": "Ticket price",
+        "capacityLabel": "Capacity",
+        "availableLabel": "Available seats (optional)",
+        "submit": "Publish event",
+        "update": "Save changes",
+        "reset": "Reset form",
+        "resetEditing": "Reset changes",
+        "validation": {
+          "required": "This field is required",
+          "invalidImage": "Please choose an image file.",
+          "imageReadError": "We could not read this image. Please try another file."
+        }
+      },
+      "metricsTitle": "Your key figures",
+      "upcomingTitle": "Upcoming events",
+      "upcomingSubtitle": "Keep track of what is coming next.",
+      "noUpcoming": "You do not have upcoming events yet.",
+      "performanceTitle": "Event performance",
+      "performanceSubtitle": "Top performers based on tickets sold.",
+      "noPerformance": "No performance data available yet.",
+      "performanceColumns": {
+        "event": "Event",
+        "date": "Date",
+        "sold": "Tickets sold",
+        "occupancy": "Occupancy",
+        "revenue": "Revenue",
+        "potential": "Potential"
+      },
+      "eventTicketsSold": "{sold} tickets sold",
+      "eventStatus": {
+        "approved": "Approved",
+        "pending": "Pending approval"
+      }
+    }
+  }
+}

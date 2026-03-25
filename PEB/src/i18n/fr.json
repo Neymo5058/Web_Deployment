@@ -1,0 +1,373 @@
+{
+  "common": {
+    "lang_en": "EN",
+    "lang_fr": "FR",
+    "globe_label": "Changer de langue",
+    "loading": "Chargement...",
+    "loadingAria": "Chargement"
+  },
+  "navbar": {
+    "signin": "Se connecter",
+    "signup": "Créer un compte",
+    "logout": "Se déconnecter",
+    "welcome": "Bonjour {name}",
+    "adminDashboard": "Tableau admin",
+    "organizerDashboard": "Tableau organisateur",
+    "profile": "Mon profil",
+    "openMenu": "Ouvrir la navigation",
+    "closeMenu": "Fermer la navigation"
+  },
+  "home": {
+    "home": "Accueil",
+    "title": "Réservez des événements facilement",
+    "subtitle": "Découvrez les meilleurs concerts, conférences et événements sportifs... réservez vos tickets  en quelques clics",
+    "feature_search": "Recherche facile",
+    "feature_booking": "Réservations simples",
+    "feature_payment": "Paiement sécurisé",
+    "feature_search_desc": "Trouvez facilement des événements.",
+    "feature_booking_desc": "Réservez vos billets en quelques clics.",
+    "feature_payment_desc": "Profitez d’une transaction en ligne sécurisée et protégée.",
+    "cta_events": "Voir les événements"
+  },
+  "login": {
+    "signin_title": "Connexion",
+    "email_label": "Adresse e-mail",
+    "email_placeholder": "Entrez votre e-mail",
+    "password_label": "Mot de passe",
+    "password_placeholder": "Entrez votre mot de passe",
+    "cta_signin": "Se connecter",
+    "no_account": "Pas de compte ?",
+    "link_signup": "Créer un compte"
+  },
+  "signup": {
+    "title": "Inscription",
+    "full_name_label": "Nom complet",
+    "full_name_placeholder": "Entrez votre nom complet",
+    "email_label": "Adresse e-mail",
+    "email_placeholder": "Entrez votre e-mail",
+    "password_label": "Mot de passe",
+    "password_placeholder": "Entrez votre mot de passe",
+    "confirm_password_label": "Confirmer le mot de passe",
+    "confirm_password_placeholder": "Ressaisissez votre mot de passe",
+    "toggle_show_pwd": "Afficher le mot de passe",
+    "toggle_hide_pwd": "Masquer le mot de passe",
+    "account_type_label": "Type de compte",
+    "account_type_placeholder": "Sélectionnez un type de compte",
+    "account_type_user": "Utilisateur",
+    "account_type_organizer": "Organisateur",
+    "cta_signup": "Créer un compte",
+    "have_account": "Déjà un compte ?",
+    "link_signin": "Se connecter",
+    "error_password_mismatch": "Les mots de passe ne correspondent pas"
+  },
+  "checkout": {
+    "common": {
+      "back": "\u2190 Retour à l'étape précédente",
+      "loading": "Chargement…",
+      "loadingEvent": "Chargement de l'événement…",
+      "loadingStripe": "Initialisation de Stripe…"
+    },
+    "summary": {
+      "title": "Détails de la réservation",
+      "pricePerTicket": "Prix par billet",
+      "quantity": "Quantité",
+      "taxes": "Taxes",
+      "fees": "Frais de service",
+      "total": "Total"
+    },
+    "ticket": {
+      "title": "Sélection des billets",
+      "quantityLabel": "Quantité",
+      "soldOut": "Événement complet",
+      "cta": "Suivant"
+    },
+    "customer": {
+      "title": "Informations client",
+      "fullnameLabel": "Nom complet",
+      "fullnamePlaceholder": "Entrez votre nom complet",
+      "emailLabel": "Adresse e-mail",
+      "emailPlaceholder": "vous@example.com",
+      "phoneLabel": "Téléphone",
+      "phonePlaceholder": "(555) 123-4567",
+      "actions": {
+        "previous": "Retour à la sélection",
+        "next": "Continuer vers le paiement"
+      }
+    },
+    "payment": {
+      "secureTitle": "Paiement sécurisé",
+      "contact": {
+        "legend": "Coordonnées",
+        "fullnameLabel": "Nom complet",
+        "fullnamePlaceholder": "Votre nom et prénom",
+        "emailLabel": "Adresse e-mail",
+        "emailPlaceholder": "vous@example.com"
+      },
+      "method": {
+        "legend": "Méthode de paiement"
+      },
+      "actions": {
+        "previous": "Précédent",
+        "confirm": "Confirmer et payer",
+        "processing": "Traitement…"
+      },
+      "status": {
+        "verification": "Le paiement est en cours de vérification. Vous recevrez un courriel une fois confirmé."
+      }
+    },
+    "validation": {
+      "fullnameRequired": "Le nom complet est requis.",
+      "emailRequired": "L’adresse e-mail est requise.",
+      "emailInvalid": "Adresse e-mail invalide."
+    },
+    "errors": {
+      "eventNotFound": "Événement introuvable.",
+      "eventLoad": "Impossible de charger l'événement.",
+      "missingEventId": "Identifiant de l’événement manquant.",
+      "intentInit": "Impossible d’initier le paiement.",
+      "missingPublishableKey": "Clé publique Stripe manquante.",
+      "missingClientSecret": "Impossible d'obtenir le client secret pour Stripe.",
+      "stripeInit": "Échec du chargement de Stripe.",
+      "paymentUnavailable": "Le paiement ne peut pas être traité pour le moment.",
+      "paymentDeclined": "Le paiement a été refusé. Veuillez vérifier vos informations.",
+      "paymentUnexpected": "Une erreur inattendue est survenue lors du paiement.",
+      "confirmation": "Impossible de confirmer le paiement."
+    },
+    "quantity": {
+      "decrease": "Diminuer la quantité",
+      "increase": "Augmenter la quantité"
+    }
+  },
+  "roles": {
+    "user": "Utilisateur",
+    "organizer": "Organisateur",
+    "admin": "Administrateur"
+  },
+  "event": {
+    "popularSectionTitle": "Événements",
+    "loading": "Chargement des événements…",
+    "errorGeneric": "Impossible de charger les événements.",
+    "errorTimeout": "La requête a expiré. Vérifiez votre connexion et réessayez.",
+    "errorWithMessage": "Impossible de charger les événements : {message}",
+    "none": "Aucun événement n'est disponible pour le moment.",
+    "imageAlt": "Illustration de l'événement : {title}",
+    "imageAltFallback": "Illustration d'un événement",
+    "soldOut": "Complet",
+    "availableSimple": {
+      "one": "{count} place disponible",
+      "other": "{count} places disponibles"
+    },
+    "availableOfCapacity": {
+      "one": "{available}/{capacity} place restante",
+      "other": "{available}/{capacity} places restantes"
+    },
+    "priceFrom": "À partir de {price}",
+    "searchPlaceholder": "Rechercher des événements…",
+    "searchAriaLabel": "Rechercher des événements",
+    "sortLabel": "Trier par :",
+    "viewOrganizerDashboard": "Tableau de bord organisateur",
+    "sortOptions": {
+      "dateAsc": "Date : proche → éloignée",
+      "dateDesc": "Date : éloignée → proche",
+      "priceAsc": "Prix : bas → élevé",
+      "priceDesc": "Prix : élevé → bas",
+      "capacityAsc": "Capacité : faible → élevée",
+      "capacityDesc": "Capacité : élevée → faible"
+    }
+  },
+  "eventDetail": {
+    "back": "Retour aux événements",
+    "loading": "Chargement de l'événement…",
+    "error": "Impossible de charger l'événement.",
+    "errorTimeout": "Le délai de réponse est dépassé. Veuillez réessayer.",
+    "errorWithMessage": "Impossible de charger l'événement : {message}",
+    "notFound": "Cet événement est introuvable.",
+    "summaryTitle": "Détails de l’événement",
+    "date": "Date",
+    "time": "Heure",
+    "location": "Lieu",
+    "organizer": "Organisateur",
+    "capacity": "Capacité",
+    "available": "Places disponibles",
+    "availabilityLabel": {
+      "one": "place disponible",
+      "other": "places disponibles"
+    },
+    "price": "Tarif",
+    "soldOut": "Complet",
+    "unknown": "Non communiqué",
+    "editEvent": "Modifier cet événement",
+    "reserveNow": "Réserver maintenant"
+  },
+  "dashboard": {
+    "actions": {
+      "refresh": "Rafraîchir",
+      "backToEvents": "Retour aux événements"
+    },
+    "states": {
+      "loading": "Chargement des indicateurs…"
+    },
+    "common": {
+      "updatedAt": "Mis à jour le {date}"
+    },
+    "metrics": {
+      "totalUsers": "Utilisateurs",
+      "totalEvents": "Événements",
+      "ticketsSold": "Billets vendus",
+      "revenue": "Revenu",
+      "totalCapacity": "Capacité totale",
+      "activeOrganizersShort": "{count} organisateurs actifs",
+      "upcomingEventsShort": "{count} à venir",
+      "occupancyRateShort": "{value} de remplissage",
+      "potentialRevenueShort": "Potentiel : {value}",
+      "availableShort": "{count} places disponibles",
+      "averageTicketPriceShort": "Prix moyen : {value}"
+    },
+    "admin": {
+      "title": "Tableau de bord administrateur",
+      "subtitle": "Surveillez la santé de la plateforme et gérez les accès en un clin d'œil.",
+      "authRequired": "Vous devez vous connecter pour accéder au tableau de bord administrateur.",
+      "forbidden": "Seuls les administrateurs peuvent accéder à ce tableau de bord.",
+      "metricsTitle": "Indicateurs globaux",
+      "roleDistributionTitle": "Répartition des rôles",
+      "accessTitle": "Gestion des accès",
+      "accessSubtitle": "Consultez les comptes et ajustez les rôles si nécessaire.",
+      "pendingTitle": "Approbations en attente",
+      "pendingSubtitle": "{count} événement(s) en attente d'approbation",
+      "pendingColumns": {
+        "event": "Événement",
+        "organizer": "Organisateur",
+        "date": "Prévu pour",
+        "submittedAt": "Soumis le",
+        "actions": "Actions"
+      },
+      "eventApproveSuccess": "L'événement a été approuvé et est maintenant public.",
+      "eventApproveError": "Impossible d'approuver cet événement. Veuillez réessayer.",
+      "eventApproveAlready": "Cet événement a déjà été approuvé.",
+      "eventRejectSuccess": "L'événement a été refusé et retiré de la plateforme.",
+      "eventRejectError": "Impossible de refuser cet événement. Veuillez réessayer.",
+      "eventRejectAlready": "Cet événement a déjà été traité.",
+      "approval": {
+        "title": "Validation des événements",
+        "subtitle": "Examinez les propositions en attente avant leur publication.",
+        "searchLabel": "Rechercher des événements en attente",
+        "searchPlaceholder": "Rechercher par titre ou organisateur…",
+        "filterLabel": "Statut",
+        "status": {
+          "all": "Tous",
+          "pending": "En attente",
+          "approved": "Approuvé",
+          "rejected": "Refusé",
+          "unknown": "Inconnu"
+        },
+        "untitled": "Événement sans titre",
+        "unknownOrganizer": "Organisateur inconnu",
+        "unknownLocation": "Lieu inconnu",
+        "emptyPending": "Aucun événement n'attend de validation pour le moment.",
+        "emptyGeneric": "Aucun événement ne correspond aux filtres.",
+        "submittedAt": "Soumis le {date}",
+        "selectPlaceholder": "Sélectionnez un événement pour consulter les détails.",
+        "details": {
+          "organizer": "Organisateur",
+          "submitted": "Soumis le",
+          "date": "Date de l'événement",
+          "time": "Heure de l'événement",
+          "location": "Lieu",
+          "capacity": "Capacité",
+          "available": "{available} places restantes",
+          "price": "Prix du billet",
+          "description": "Description"
+        },
+        "actions": {
+          "approve": "Approuver",
+          "reject": "Refuser",
+          "approving": "Approbation…",
+          "rejecting": "Refus en cours…"
+        }
+      },
+      "noUsers": "Aucun utilisateur pour le moment.",
+      "userColumns": {
+        "name": "Nom",
+        "email": "Email",
+        "role": "Rôle",
+        "createdAt": "Créé le",
+        "actions": "Actions"
+      },
+      "roleUpdateSuccess": "Rôle mis à jour avec succès.",
+      "roleUpdateError": "Impossible de mettre à jour le rôle de l'utilisateur."
+    },
+    "organizer": {
+      "title": "Tableau de bord organisateur",
+      "subtitleWithEmail": "{name} · {email}",
+      "subtitleFallback": "Gérez vos événements et suivez leurs performances.",
+      "authRequired": "Vous devez vous connecter pour accéder au tableau de bord organisateur.",
+      "forbidden": "Seuls les organisateurs peuvent accéder à ce tableau de bord.",
+      "createTitle": "Créer un nouvel événement",
+      "createSubtitle": "Renseignez les informations ci-dessous pour proposer une nouvelle expérience à vos participants.",
+      "createSuccess": "L'événement « {title} » a été soumis et attend l'approbation d'un administrateur.",
+      "createError": "Impossible de créer l'événement.",
+      "notifications": {
+        "eventRejected": "Votre événement « {title} » a été refusé par l'administrateur et retiré de la plateforme.",
+        "dismissError": "Impossible de fermer cette notification. Veuillez réessayer.",
+        "generic": "Vous avez une nouvelle notification."
+      },
+      "manageTitle": "Gérer vos événements",
+      "manageSubtitle": "Sélectionnez un événement pour mettre à jour ses informations.",
+      "noEvents": "Vous n'avez pas encore créé d'événement.",
+      "editAction": "Modifier",
+      "editingTitle": "Modification de « {title} »",
+      "cancelEdit": "Annuler la modification",
+      "untitledEvent": "Événement sans titre",
+      "updateSuccess": "L'événement « {title} » a été mis à jour avec succès.",
+      "updateError": "Impossible de mettre à jour l'événement.",
+      "form": {
+        "titleLabel": "Titre de l'événement",
+        "subtitleLabel": "Description",
+        "descriptionLabel": "Description",
+        "imageUrlLabel": "URL de l'image",
+        "imageUploadLabel": "Prendre ou importer une image",
+        "imageUploadHint": "Prenez une nouvelle photo ou choisissez-en une déjà présente sur votre appareil.",
+        "imageUploadSelected": "Fichier sélectionné : {file}",
+        "imageUploadClear": "Retirer l'image",
+        "startsAtLabel": "Date",
+        "hourLabel": "Heure",
+        "placeNameLabel": "Nom du lieu",
+        "placeCityLabel": "Ville",
+        "placeCountryLabel": "Pays (optionnel)",
+        "organizerLabel": "Organisateur",
+        "priceLabel": "Prix du billet",
+        "capacityLabel": "Capacité",
+        "availableLabel": "Places disponibles (optionnel)",
+        "submit": "Publier l'événement",
+        "update": "Enregistrer les modifications",
+        "reset": "Réinitialiser le formulaire",
+        "resetEditing": "Réinitialiser les modifications",
+        "validation": {
+          "required": "Ce champ est requis",
+          "invalidImage": "Veuillez choisir un fichier image.",
+          "imageReadError": "Nous n'avons pas pu lire cette image. Veuillez essayer un autre fichier."
+        }
+      },
+      "metricsTitle": "Vos indicateurs clés",
+      "upcomingTitle": "Événements à venir",
+      "upcomingSubtitle": "Gardez un œil sur les prochains rendez-vous.",
+      "noUpcoming": "Aucun événement à venir pour le moment.",
+      "performanceTitle": "Performance des événements",
+      "performanceSubtitle": "Classement selon le nombre de billets vendus.",
+      "noPerformance": "Aucune donnée de performance disponible pour l'instant.",
+      "performanceColumns": {
+        "event": "Événement",
+        "date": "Date",
+        "sold": "Billets vendus",
+        "occupancy": "Taux de remplissage",
+        "revenue": "Revenu",
+        "potential": "Potentiel"
+      },
+      "eventTicketsSold": "{sold} billets vendus",
+      "eventStatus": {
+        "approved": "Approuvé",
+        "pending": "En attente d'approbation"
+      }
+    }
+  }
+}

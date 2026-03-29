@@ -105,7 +105,7 @@ const buildSampleEvents = (admin) => {
       startsAt: new Date(Date.UTC(baseYear, baseMonth + 1, 5, 13, 30)),
       hour: '09:30',
       place: { name: 'Palais des congrès', city: 'Montréal', country: 'CA' },
-      organizer: 'Pro Event Booking',
+      organizer: 'EasyBooking',
       price: 189,
       capacity: 150,
     },

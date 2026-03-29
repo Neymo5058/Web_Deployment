@@ -123,8 +123,8 @@ onBeforeUnmount(() => {
         </button>
         <div class="logo">
           <img
-            src="@/assets/logo.png"
-            alt="Pro Event Booking"
+            src="@/assets/logo_1.png"
+            alt="EasyBooking"
             class="logo__img"
           />
         </div>
@@ -228,8 +228,8 @@ onBeforeUnmount(() => {
 }
 
 .logo__img {
-  height: 3rem;
-  width: 3.2rem;
+  height: 5rem;
+  width: 6rem;
 }
 
 .menu-toggle {

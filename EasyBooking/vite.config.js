@@ -18,8 +18,8 @@ export default defineConfig(({ mode }) => {
     env.VITE_DEV_PROXY_TARGET || `http://localhost:${devApiPort}`;
 
   // ---------- PROD BACKEND (Railway) ----------
-  const prodApiUrl =
-    env.VITE_API_URL || 'https://test-1-gt6a.onrender.com';
+ 
+  const prodApiUrl = env.VITE_API_URL || 'http://easybooking-app.online/api';
 
   // ---------- CONFIG ----------
   return {

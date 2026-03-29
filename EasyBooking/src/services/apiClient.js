@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const DEFAULT_API_HOST =
   import.meta.env.MODE === 'production'
-    ? 'https://test-production-c1aa.up.railway.app'
+    ? 'http://easybooking-app.online' //  Ton domaine AWS
     : 'http://localhost:5000';
 
 const normalizeBaseUrl = (url) => {
